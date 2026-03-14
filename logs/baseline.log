@@ -1,0 +1,17 @@
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+开始训练: 架构=[784, 256, 128, 10], 激活=relu, LR=0.01, Batch=64, L2=0.0001
+Epoch 05/25 | Train Loss: 0.6687 Acc: 79.26% | Val Loss: 0.5898 Acc: 82.40%
+Epoch 10/25 | Train Loss: 0.3573 Acc: 89.87% | Val Loss: 0.3441 Acc: 89.99%
+Epoch 15/25 | Train Loss: 0.2654 Acc: 92.40% | Val Loss: 0.2628 Acc: 92.45%
+Epoch 20/25 | Train Loss: 0.2024 Acc: 94.29% | Val Loss: 0.2061 Acc: 94.01%
+Epoch 25/25 | Train Loss: 0.1598 Acc: 95.52% | Val Loss: 0.1689 Acc: 95.09%
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+生成可视化结果图 (随机选取 15 张)
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+生成【分类错误】分析图 - baseline (总错误数: 687, 随机抽取 15 张)
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+>>> [INFO] baseline 混淆矩阵已保存至 plots/baseline_confusion_matrix.png

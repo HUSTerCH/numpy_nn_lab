@@ -1,0 +1,17 @@
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+开始训练: 架构=[784, 512, 256, 10], 激活=leaky_relu, LR=0.005, Batch=128, L2=0.001
+Epoch 05/25 | Train Loss: 2.2756 Acc: 29.80% | Val Loss: 2.2636 Acc: 31.80%
+Epoch 10/25 | Train Loss: 1.0931 Acc: 69.38% | Val Loss: 0.9607 Acc: 72.16%
+Epoch 15/25 | Train Loss: 0.5518 Acc: 83.88% | Val Loss: 0.5303 Acc: 84.59%
+Epoch 20/25 | Train Loss: 0.4339 Acc: 87.60% | Val Loss: 0.4239 Acc: 87.94%
+Epoch 25/25 | Train Loss: 0.3769 Acc: 89.31% | Val Loss: 0.3736 Acc: 89.17%
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+生成可视化结果图 (随机选取 15 张)
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+生成【分类错误】分析图 - group1 (总错误数: 1516, 随机抽取 15 张)
+Loading cached MNIST data...
+Dataset loaded, Train X shape:(56000, 784), Train y shape:(56000, 10)
+>>> [INFO] group1 混淆矩阵已保存至 plots/group1_confusion_matrix.png

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+*.egg-info/
+.venv/
+.idea/
+.vscode/
+.DS_Store
+data/mnist_cache.pkl
