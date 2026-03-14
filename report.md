@@ -167,7 +167,7 @@ class FullyConnectedLayer:
 
 #### 3.2.2 激活函数与梯度求导
 
-要求实现`ReLU/LeakyReLU/Sigmoid/Tanh`等激活函数并实现其导师。在底层的`numpy`向量化实现中，反向传播的核心在于利用前向计算的缓存矩阵，从而避免冗余计算。
+要求实现`ReLU/LeakyReLU/Sigmoid/Tanh`等激活函数并实现其导数。在底层的`numpy`向量化实现中，反向传播的核心在于利用前向计算的缓存矩阵，从而避免冗余计算。
 
 - `ReLU`与`LeakyReLU`的分段截断
 
@@ -430,6 +430,6 @@ Baseline组、组1和组2的Loss/Accuracy曲线图如下所示：
   结论：**在基础全连接网络中，网络深度的增加与模型性能并非简单的线性正相关。** 必须配合严格的参数初始化、合理的正则化力度以及动态缩放的学习率，才能让深层网络的表征红利转化为真实的测试集收益。
 
 ## 附录
-本实验源代码与实验结果开源于Github：[]()
+本实验源代码与实验结果开源于Github：[numpy_nn_lab](https://github.com/HUSTerCH/numpy_nn_lab)
 
-*本实验使用组内成员[罗畅](https://github.com/HUSTerCH?tab=repositories)和[赵甫霖](https://github.com/Holidayrabbit)独立开发的Markdown转PDF开源工具[MakePress](https://github.com/HUSTerCH/markpress)完成实验报告撰写，欢迎体验！*
+<font color="#476582"><i>本实验使用组内成员[罗畅](https://github.com/HUSTerCH?tab=repositories)和[赵甫霖](https://github.com/Holidayrabbit)独立开发的Markdown转PDF开源工具[MakePress](https://github.com/HUSTerCH/markpress)完成报告撰写，欢迎体验！</i></font>
